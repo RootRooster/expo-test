@@ -23,6 +23,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+          <ThemedText>Done this</ThemedText>
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
@@ -59,6 +60,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
+  },
+  myNewLine: {
+    flexDirection: 'row',
+
   },
   stepContainer: {
     gap: 8,
